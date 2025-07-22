@@ -70,11 +70,3 @@ Simulation Scenarios
 
     Comparative studies between IMM and Kalman filter prediction accuracy under various scenarios and datasets.
 
-Variables and Dimensions (example)
-Symbol	Description	Dimensions
-AA	System matrix	3j×3j3j×3j or 2j×2j2j×2j for DMDc
-BB	Input matrix (DMDc only)	3j×33j×3 or 2j×22j×2
-CC	Output matrix	3×3j3×3j or 2×2j2×2j
-x~kx~k​	State vector after DMD estimate	3j×13j×1 or 2j×12j×1
-x^kx^k​	Kalman filter state estimate	3j×13j×1 or 2j×12j×1
-KK	Kalman gain	3j×33j×3 or 2j×22j×2
